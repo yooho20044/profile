@@ -3,13 +3,13 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import Top from '@/component/top';
-import Profile from '@/component/profile';
-import EmploymentHistory from '@/component/employment_history';
-import Project from '@/component/project';
-import Contact from '@/component/contact';
-import Etc from '@/component/etc';
-import Bottom from '@/component/bottom';
+import Top from '@/components/top';
+import Profile from '@/components/profile';
+import EmploymentHistory from '@/components/employment_history';
+import Project from '@/components/project';
+import Contact from '@/components/contact';
+import Etc from '@/components/etc';
+import Bottom from '@/components/bottom';
 
 export default function Home() {
   
@@ -39,7 +39,7 @@ export default function Home() {
   }, []);
 
   return (
-      <div className="flex flex-col bg-black min-w-screen min-h-screen m-auto">
+      <div className="flex flex-col w-screen min-h-screen bg-black m-auto">
         <Top />
         <Profile />
         <EmploymentHistory />
