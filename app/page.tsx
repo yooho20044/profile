@@ -8,7 +8,6 @@ import Profile from '@/components/profile';
 import EmploymentHistory from '@/components/employment_history';
 import Project from '@/components/project';
 import Contact from '@/components/contact';
-import Etc from '@/components/etc';
 import Bottom from '@/components/bottom';
 
 export default function Home() {
@@ -44,7 +43,6 @@ export default function Home() {
         <Profile />
         <EmploymentHistory />
         <Project />
-        <Etc />
         <Contact />
         <Bottom />
       </div>
