@@ -38,7 +38,7 @@ export default function Home() {
   }, []);
 
   return (
-      <div className="flex flex-col w-screen min-h-screen bg-black m-auto">
+      <div className="flex flex-col w-screen min-h-screen bg-black m-auto justify-center">
         <Top />
         <Profile />
         <EmploymentHistory />

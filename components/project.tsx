@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 export default function Project(){
     return(
-        <div className="flex flex-col h-screen bg-white text-black m-20 z-50" data-aos="zoom-in">
+        <div className="flex flex-col bg-white text-black m-20 z-50" data-aos="zoom-in">
           <div className='flex h-[20%] justify-center items-center border-b border-neutral-400'>
-              <span className='text-7xl font-bold text-black'>개인 프로젝트</span>
+              <span className='lg:text-7xl font-bold text-black text-4xl'>개인 프로젝트</span>
           </div>
-          <div className='flex flex-1 flex-row'>
+          <div className='flex flex-1 flex-wrap lg:flex-row gap-4'>
               <Link 
-              className='flex flex-1 flex-col justify-center items-center m-20 bg-neutral-100' 
+              className='w-full flex lg:flex-1 flex-col justify-center items-center m-20 bg-neutral-100' 
               target='_blank'
               data-aos="flip-up" 
               data-aos-duration="3000"
@@ -24,14 +24,14 @@ export default function Project(){
                   layout="responsive"
                   />
                 </div>
-                <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
+                <div className='flex flex-1 flex-col gap-3 justify-center pb-1 pt-2'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>당근마켓 클론사이트 구현</span>
-                  <span className='text-md font-bold'>실제 구현부분</span>
+                  <span className='text-md font-bold text-center'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>prisma(postgresql)를 사용한 CRUD구현</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-md font-bold'>사용 기술</span>
-                  <div className='pl-2 flex flex-row gap-1'>
+                  <span className='text-md font-bold text-center'>사용 기술</span>
+                  <div className='flex flex-row gap-1 justify-center'>
                     <Image 
                     src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' 
                     alt='React' 
@@ -68,6 +68,8 @@ export default function Project(){
                     width={20}   
                     height={20}
                     />
+                  </div>
+                  <div className='flex flex-row gap-1 justify-center'>
                     <Image 
                     src='https://cdn.brandfetch.io/idBBE3_R9e/id1Mpn6ivM.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
                     alt='prisma' 
@@ -90,7 +92,7 @@ export default function Project(){
                 </div>
               </Link>
               <Link 
-              className='flex flex-1 flex-col justify-center items-center m-20 bg-neutral-200' 
+              className='w-full flex lg:flex-1 flex-col justify-center items-center m-20 bg-neutral-100' 
               target='_blank'
               data-aos="flip-up" 
               data-aos-duration="3000" 
@@ -105,14 +107,14 @@ export default function Project(){
                   layout="responsive"
                   />
                 </div>
-                <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
+                <div className='flex flex-1 flex-col gap-3 justify-center pb-1 pt-2'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>영화 평점사이트 구현</span>
-                  <span className='text-md font-bold'>실제 구현부분</span>
+                  <span className='text-md font-bold text-center'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>api를 사용한 데이터 표출</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-md font-bold'>사용 기술</span>
-                  <div className='pl-2 flex flex-row gap-1'>
+                  <span className='text-md font-bold text-center'>사용 기술</span>
+                  <div className='flex flex-row gap-2 justify-center'>
                     <Image 
                     src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' 
                     alt='React' 
@@ -147,7 +149,7 @@ export default function Project(){
                 </div>
               </Link>
               <div 
-              className='flex flex-1 flex-col justify-center items-center m-20 bg-neutral-200' 
+              className='w-full flex lg:flex-1 flex-col justify-center items-center m-20 bg-neutral-100' 
               data-aos="flip-up" 
               data-aos-duration="3000" 
               data-aos-anchor-placement="bottom-bottom">
@@ -160,13 +162,13 @@ export default function Project(){
                   layout="responsive"
                   />
                 </div>
-                <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
+                <div className='flex flex-1 flex-col gap-3 justify-center pb-1 pt-2'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>내 이력서 페이지 구현</span>
-                  <span className='text-md font-bold'>실제 구현부분</span>
+                  <span className='text-md font-bold text-center'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 싱글 페이지 구현</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-md font-bold'>사용 기술</span>
-                  <div className='pl-2 flex flex-row gap-2'>
+                  <span className='text-md font-bold text-center'>사용 기술</span>
+                  <div className='flex flex-row gap-2 justify-center'>
                     <Image 
                     src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' 
                     alt='React' 
@@ -203,6 +205,8 @@ export default function Project(){
                     width={20}   
                     height={20}
                     />
+                  </div>
+                  <div className='flex flex-row gap-2 justify-center'>
                     <Image 
                     src='https://cdn.brandfetch.io/idDpCfN4VD/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
                     alt='vercel' 
