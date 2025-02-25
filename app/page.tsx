@@ -12,7 +12,7 @@ import Etc from '@/components/etc';
 import Bottom from '@/components/bottom';
 
 export default function Home() {
-  
+
   useEffect(() => {
     AOS.init({
       // Global settings:
