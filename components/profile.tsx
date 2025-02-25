@@ -24,7 +24,7 @@ export default function Profile(){
                     <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>개인정보</span>
-                            <span className='text-neutral-400 font-semibold pt-2'>Personal Detail</span>
+                            <span className='text-neutral-400 font-semibold pt-2'>PERSONAL DETAIL</span>
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10'>
                             <span>이름: 류 호 진</span>
@@ -36,7 +36,7 @@ export default function Profile(){
                     <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>자격증</span>
-                            <span className='text-neutral-400 font-semibold pt-2'>License</span>
+                            <span className='text-neutral-400 font-semibold pt-2'>LICENSE</span>
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
                             <div className='flex flex-row'>
@@ -66,7 +66,7 @@ export default function Profile(){
                     <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>학력사항</span>
-                            <span className='text-neutral-400 font-semibold pt-2'>Education</span>
+                            <span className='text-neutral-400 font-semibold pt-2'>EDUCATION</span>
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
                             <div className='flex flex-row'>
@@ -84,7 +84,7 @@ export default function Profile(){
                     <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>기술</span>
-                            <span className='text-neutral-400 font-semibold pt-2'>Skill</span>
+                            <span className='text-neutral-400 font-semibold pt-2'>SKILL</span>
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
                             <div className='flex flex-row'>
@@ -110,7 +110,7 @@ export default function Profile(){
                 <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>경력사항</span>
-                            <span className='text-neutral-400 font-semibold pt-2'>Education</span>
+                            <span className='text-neutral-400 font-semibold pt-2'>WORK EXPERIENCE</span>
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
                             <div className='flex flex-row'>

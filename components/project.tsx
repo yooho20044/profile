@@ -10,6 +10,7 @@ export default function Project(){
           <div className='flex flex-1 flex-row'>
               <Link 
               className='flex flex-1 flex-col justify-center items-center m-20 bg-neutral-100' 
+              target='_blank'
               data-aos="flip-up" 
               data-aos-duration="3000"
               data-aos-anchor-placement="top-bottom"
@@ -32,10 +33,10 @@ export default function Project(){
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
                   <span className='text-md'>사용 기술 : </span>
                 </div>
-
               </Link>
               <Link 
               className='flex flex-1 flex-col justify-center items-center m-20 bg-neutral-200' 
+              target='_blank'
               data-aos="flip-up" 
               data-aos-duration="3000" 
               data-aos-anchor-placement="center-bottom"
@@ -74,10 +75,10 @@ export default function Project(){
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>내 이력서 사이트 구현</span>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>내 이력서 페이지 구현</span>
                   <span className='text-md pt-2'>참여도 : 100%</span>
                   <span className='text-md font-bold'>실제 구현부분</span>
-                  <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
+                  <span className='pl-4 text-sm'>next.js를 사용한 싱글 페이지 구현</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
                   <span className='text-md'>사용 기술 : </span>
                 </div>
