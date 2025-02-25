@@ -24,13 +24,13 @@ export default function Project(){
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-3xl pb-2 border-b-4 border-neutral-400'>당근마켓 클론사이트 구현</span>
-                  <span className='text-lg pt-8'>참여도 : 100% </span>
-                  <span className='text-lg font-bold'>실제 구현부분</span>
-                  <span className='pl-4'>prisma(postgresql)를 사용한 CRUD구현</span>
-                  <span className='pl-4'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
-                  <span className='pl-4'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-lg'>사용 기술 : </span>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>당근마켓 클론사이트 구현</span>
+                  <span className='text-md pt-2'>참여도 : 100% </span>
+                  <span className='text-md font-bold'>실제 구현부분</span>
+                  <span className='pl-4 text-sm'>prisma(postgresql)를 사용한 CRUD구현</span>
+                  <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
+                  <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
+                  <span className='text-md'>사용 기술 : </span>
                 </div>
 
               </Link>
@@ -50,13 +50,13 @@ export default function Project(){
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-3xl pb-2 border-b-4 border-neutral-400'>영화 평점사이트 구현</span>
-                  <span className='text-lg pt-8'>참여도 : 100%</span>
-                  <span className='text-lg font-bold'>실제 구현부분</span>
-                  <span className='pl-4'>api를 사용한 데이터 표출</span>
-                  <span className='pl-4'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
-                  <span className='pl-4'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-lg'>사용 기술 : </span>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>영화 평점사이트 구현</span>
+                  <span className='text-md pt-2'>참여도 : 100%</span>
+                  <span className='text-md font-bold'>실제 구현부분</span>
+                  <span className='pl-4 text-sm'>api를 사용한 데이터 표출</span>
+                  <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
+                  <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
+                  <span className='text-md'>사용 기술 : </span>
                 </div>
               </Link>
               <div 
@@ -74,12 +74,12 @@ export default function Project(){
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-3xl pb-2 border-b-4 border-neutral-400'>내 이력서 사이트 구현</span>
-                  <span className='text-lg pt-8'>참여도 : 100%</span>
-                  <span className='text-lg font-bold'>실제 구현부분</span>
-                  <span className='pl-4'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
-                  <span className='pl-4'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-lg'>사용 기술 : </span>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>내 이력서 사이트 구현</span>
+                  <span className='text-md pt-2'>참여도 : 100%</span>
+                  <span className='text-md font-bold'>실제 구현부분</span>
+                  <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
+                  <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
+                  <span className='text-md'>사용 기술 : </span>
                 </div>
               </div>
           </div>
