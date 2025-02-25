@@ -6,7 +6,7 @@ export default function Top(){
 
         useEffect(() => {
             const handleScroll = () => {
-            const threshold = 1400; // 문서 맨 아래로부터 얼마 남았을 때 숨길지 결정 (픽셀 단위)
+            const threshold = 1250; // 문서 맨 아래로부터 얼마 남았을 때 숨길지 결정 (픽셀 단위)
             if (window.innerHeight + window.scrollY >= document.body.offsetHeight - threshold) {
                 setHide(true);
             } else {
