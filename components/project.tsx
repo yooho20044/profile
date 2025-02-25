@@ -24,14 +24,69 @@ export default function Project(){
                   layout="responsive"
                   />
                 </div>
-                <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>당근마켓 클론사이트 구현</span>
-                  <span className='text-md pt-2'>참여도 : 100% </span>
+                <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>당근마켓 클론사이트 구현</span>
                   <span className='text-md font-bold'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>prisma(postgresql)를 사용한 CRUD구현</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-md'>사용 기술 : </span>
+                  <span className='text-md font-bold'>사용 기술</span>
+                  <div className='pl-2 flex flex-row gap-1'>
+                    <Image 
+                    src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' 
+                    alt='React' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/color/48/nextjs.png' 
+                    alt='Next.js' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/fluency/48/typescript--v2.png' 
+                    alt='TypeScript' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/color/48/postgreesql.png' 
+                    alt='Postgresql' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/ios-filled/50/github.png' 
+                    alt='Github' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-cloudflare-provides-content-delivery-network-services-ddos-mitigation-logo-color-tal-revivo.png' 
+                    alt='Cloudflare' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://cdn.brandfetch.io/idBBE3_R9e/id1Mpn6ivM.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
+                    alt='prisma' 
+                    width={40}   
+                    height={40}
+                    />
+                    <Image 
+                    src='https://cdn.brandfetch.io/idDpCfN4VD/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
+                    alt='vercel' 
+                    width={40}   
+                    height={40}
+                    />
+                    <Image 
+                    src='https://cdn.brandfetch.io/idMNEQh7-0/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
+                    alt='tailwindCSS' 
+                    width={60}   
+                    height={60}
+                    />
+                  </div>
                 </div>
               </Link>
               <Link 
@@ -50,14 +105,45 @@ export default function Project(){
                   layout="responsive"
                   />
                 </div>
-                <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>영화 평점사이트 구현</span>
-                  <span className='text-md pt-2'>참여도 : 100%</span>
+                <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>영화 평점사이트 구현</span>
                   <span className='text-md font-bold'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>api를 사용한 데이터 표출</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 페이지 구현 및 컴포넌트화</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-md'>사용 기술 : </span>
+                  <span className='text-md font-bold'>사용 기술</span>
+                  <div className='pl-2 flex flex-row gap-1'>
+                    <Image 
+                    src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' 
+                    alt='React' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/color/48/nextjs.png' 
+                    alt='Next.js' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/fluency/48/typescript--v2.png' 
+                    alt='TypeScript' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/ios-filled/50/github.png' 
+                    alt='Github' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://cdn.brandfetch.io/idDpCfN4VD/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
+                    alt='vercel' 
+                    width={40}   
+                    height={40}
+                    />
+                  </div>
                 </div>
               </Link>
               <div 
@@ -74,13 +160,62 @@ export default function Project(){
                   layout="responsive"
                   />
                 </div>
-                <div className='flex flex-1 flex-col gap-3 justify-center'>
-                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center'>내 이력서 페이지 구현</span>
-                  <span className='text-md pt-2'>참여도 : 100%</span>
+                <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
+                  <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>내 이력서 페이지 구현</span>
                   <span className='text-md font-bold'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 싱글 페이지 구현</span>
                   <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
-                  <span className='text-md'>사용 기술 : </span>
+                  <span className='text-md font-bold'>사용 기술</span>
+                  <div className='pl-2 flex flex-row gap-2'>
+                    <Image 
+                    src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png' 
+                    alt='React' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/color/48/nextjs.png' 
+                    alt='Next.js' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/fluency/48/typescript--v2.png' 
+                    alt='TypeScript' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/color/48/postgreesql.png' 
+                    alt='Postgresql' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/ios-filled/50/github.png' 
+                    alt='Github' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-cloudflare-provides-content-delivery-network-services-ddos-mitigation-logo-color-tal-revivo.png' 
+                    alt='Cloudflare' 
+                    width={20}   
+                    height={20}
+                    />
+                    <Image 
+                    src='https://cdn.brandfetch.io/idDpCfN4VD/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
+                    alt='vercel' 
+                    width={40}   
+                    height={40}
+                    />
+                    <Image 
+                    src='https://cdn.brandfetch.io/idMNEQh7-0/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
+                    alt='tailwindCSS' 
+                    width={60}   
+                    height={60}
+                    />
+                  </div>
                 </div>
               </div>
           </div>
