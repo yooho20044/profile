@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Project(){
     return(
-        <div className="flex flex-col bg-white text-black m-20 z-50" data-aos="zoom-in">
-          <div className='flex h-[20%] justify-center items-center border-b border-neutral-400'>
+        <div className="flex h-screen flex-col bg-white text-black m-20 z-50 " data-aos="zoom-in">
+          <div className='flex h-[20%] justify-center items-center border-b border-neutral-400 p-3'>
               <span className='lg:text-7xl font-bold text-black text-4xl'>개인 프로젝트</span>
           </div>
           <div className='flex flex-1 flex-wrap lg:flex-row gap-4'>

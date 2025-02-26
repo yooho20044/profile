@@ -1,0 +1,109 @@
+[
+{
+    "pj_id": 1,
+    "pj_title": "특허 빅데이터 분석 서비스 데이터 구축 사업",
+    "pj_company": "특허전략원",
+    "pj_period": "2023.05 ~ 2023.12 / 2024.05 ~ 2024.10",
+    "pj_man": "3명(PM 1명, 개발자 2명)",
+    "pj_participation": "70%",
+    "pj_skill": [
+      "Spring Framework",
+      "Java",
+      "JavaScript",
+      "Vue.js",
+      "PostgreSQL",
+      "Linux",
+      "Shell Script",
+      "MicroStrategy",
+      "SVN",
+      "CentOS"
+    ],
+    "pj_work": [
+      "데이터 수집, 적재, 정제 (100%)",
+      "리눅스 서버 관리(DB, API, 용량 관리, 스케줄링 등) (90%)",
+      "Vue.js 기반 페이지 추가 및 유지보수 (60%)",
+      "Spring Framework 기반 API 개발 및 유지보수 (30%)"
+    ],
+    "pj_result": [
+      "약 4억 건의 대용량 데이터 수집, 적재, 정제 수행",
+      "2천만 건 이상의 해외 경제 데이터 수집, 적재, 정제",
+      "PostgreSQL 기반 SQL 정제 로직 유지보수 및 개발",
+      "Vue.js를 활용한 신규 페이지 추가 및 모듈화 진행",
+      "Linux 서버 환경에서 용량 관리 및 스케줄링 자동화",
+      "Shell Script를 활용한 데이터 정제 자동화 프로그램 개발"
+    ],
+    "pj_review": [
+        "대량의 데이터를 수집, 적재하는 과정에서 자동화 구현의 필요성을 절감",
+        "해외 경제 데이터 수집 과정에서 API 오류를 수정했으나, 기존 API 구조를 개선하지 못한 점이 아쉬움",
+        "SQLD 자격증 취득을 통해 SQL 실력 향상",
+        "MicroStrategy 사용 중 데이터 시각화의 한계를 경험, armChart 도입을 계획했으나 퇴사로 인해 실행하지 못한 점이 아쉬움"
+    ]
+  },
+  {
+    "pj_id": 2,
+    "pj_title": "건국대학교 색인·검색 시스템 구축 사업",
+    "pj_company": "건국대학교",
+    "pj_period": "2024.01 ~ 2024.04",
+    "pj_man": "4명(PM 1명, 개발자 3명)",
+    "pj_participation": "50%",
+    "pj_skill": [
+        "전자정부 프레임워크", "Java", "JavaScript", "PostgreSQL", "Oracle", "MySQL", "Rocky Linux", "Docker", "Search Studio (솔트룩스 색인 솔루션)", "GitLab"
+    ],
+    "pj_work": [
+      "폐쇄망 서버 내 색인 솔루션 및 DB 구축 (100%)",
+      "초기 색인 설계 작업 참여 (40%)",
+      "교내 DB(교직원 정보, 게시판 등) 기반 색인 파일 생성 및 증분 색인 스케줄링 관리 (100%)"
+    ],
+    "pj_result": [
+      "서버 환경 구축 및 색인 솔루션 설치",
+      "교직원 정보, 게시판, 웹페이지 데이터 색인 진행",
+      "Linux 스케줄링 활용하여 증분 색인 작업 개선",
+      "색인 설계 및 구현 참여"
+    ],
+    "pj_review": [
+        "초기 색인 설계 미숙으로 재색인 작업이 발생, 설계의 중요성을 깨달음",
+        "폐쇄망 환경에서 서버 및 DB 구축 경험 축적",
+        "색인 작업에 집중하면서 백엔드 및 프론트엔드 연계 경험 부족"
+    ]
+  },
+  {
+    "pj_id": 3,
+    "pj_title": "국민연금공단 콜 분석 시스템 유지보수",
+    "pj_company": "국민연금공단",
+    "pj_period": "2022.07 ~ 2023.12",
+    "pj_man": "2명 (담당 개발자 1명, 초기 대응/정기 점검 개발자 1명)",
+    "pj_skill": [
+        "Spring Framework", "Java", "Linux"
+    ],
+    "pj_work": [
+      "콜 분석 로그 점검 및 오류 발생 시 초기 대응"
+    ]
+  },
+  {
+    "pj_id": 4,
+    "pj_title": "한국무역협회 TradePro, TradeNavy 색인 유지보수",
+    "pj_company": "한국무역협회",
+    "pj_period": "2023.04 ~ 2023.12",
+    "pj_man": "1명 (단독 유지보수)",
+    "pj_skill": [
+        "Spring Framework", "Java", "Linux", "MongoDB", "Discovery (솔트룩스 색인 솔루션)"
+    ],
+    "pj_work": [
+      "TradePro, TradeNavy 사이트 색인 솔루션 정기 점검 및 오류 대응"
+    ]
+  },
+  {
+    "pj_id": 5,
+    "pj_title": "부산대병원 / 양산부산대병원 / 부산대한방병원 사이트 유지보수",
+    "pj_company": "부산대학교병원",
+    "pj_period": "2022.06 ~ 2023.03",
+    "pj_man": "1명 (단독 유지보수)",
+    "pj_participation": "50%",
+    "pj_skill": [
+        "Struts2 Framework", "Java", "JavaScript", "Bootstrap", "jQuery", "Oracle", "Windows Server", "SVN"
+    ],
+    "pj_work": [
+      "사이트 내 오류 대응 및 페이지 추가 요구사항 수행"
+    ]
+  }
+]
