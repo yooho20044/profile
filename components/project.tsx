@@ -13,7 +13,7 @@ export default function Project(){
               target='_blank'
               data-aos="flip-up" 
               data-aos-duration="3000"
-              data-aos-anchor-placement="top-bottom"
+              data-aos-anchor-placement="center-bottom"
               href="https://carrot-market-rhj.vercel.app">
                 <div className='flex flex-1 w-full  justify-center items-center overflow-hidden'>
                   <Image 
@@ -96,7 +96,7 @@ export default function Project(){
               target='_blank'
               data-aos="flip-up" 
               data-aos-duration="3000" 
-              data-aos-anchor-placement="center-bottom"
+              data-aos-anchor-placement="top-center"
               href="https://nextjs-movies-beryl-one.vercel.app">
                 <div className='flex flex-1 w-full  justify-center items-center overflow-hidden'>
                   <Image 
