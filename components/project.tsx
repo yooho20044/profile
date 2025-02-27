@@ -7,16 +7,16 @@ export default function Project(){
           <div className='flex h-[20%] justify-center items-center border-b border-neutral-400 p-3'>
               <span className='lg:text-7xl font-bold text-black text-4xl'>개인 프로젝트</span>
           </div>
-          <div className='flex flex-1 flex-wrap lg:flex-row gap-4'>
+          <div className='flex flex-1 flex-wrap lg:flex-row gap-4 *:rounded-lg *:bg-neutral-100 *:shadow-xl *:shadow-neutral-200/100'>
               <div 
-              className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100' 
+              className='w-full flex lg:flex-1 flex-col justify-center items-center m-16' 
               data-aos="flip-up" 
               data-aos-duration="3000"
               data-aos-anchor-placement="center-bottom">
-                <div className='flex flex-1 w-full  justify-center items-center overflow-hidden'>
+                <div className='flex flex-1 w-full  justify-center items-center overflow-hidden rounded-lg'>
                   <Image 
                   src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/c7eea095-ce58-4d45-fffa-41619b5b4500/public' 
-                  alt='당근마켓 클론사이트트'
+                  alt='당근마켓 클론사이트'
                   width={16}   
                   height={9}     
                   layout="responsive"
@@ -88,7 +88,7 @@ export default function Project(){
                     />
                   </div>
                   <div className='flex flex-row justify-center items-center gap-3 pb-2'>
-                    <Link className="p-2 bg-neutral-300 w-16 rounded-md flex justify-center items-center" href='https://carrot-market-rhj.vercel.app/' target='_blank'>
+                    <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center" href='https://carrot-market-rhj.vercel.app/' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-homepage-button-for-every-website-under-a-landing-page-template-landing-bold-tal-revivo.png' 
                       alt='hompage' 
@@ -96,7 +96,7 @@ export default function Project(){
                       height={20}
                       />
                     </Link>
-                    <Link className="p-2 bg-neutral-300 w-16 rounded-md flex justify-center items-center"  href='https://github.com/yooho20044/carrot-market-reloaded' target='_blank'>
+                    <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center"  href='https://github.com/yooho20044/carrot-market-reloaded' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-github-with-cat-logo-an-online-community-for-software-development-logo-bold-tal-revivo.png' 
                       alt='Github' 
@@ -109,7 +109,7 @@ export default function Project(){
                 </div>
               </div>
               <div 
-              className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100' 
+              className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100 shadow-xl shadow-neutral-200/100' 
               data-aos="flip-up" 
               data-aos-duration="3000" 
               data-aos-anchor-placement="top-center">
@@ -163,7 +163,7 @@ export default function Project(){
                   </div>
                 </div>
                 <div className='flex flex-row justify-center items-center gap-3 pb-3'>
-                    <Link className="p-2 bg-neutral-300 w-16 rounded-md flex justify-center items-center" href='https://nextjs-movies-git-main-yooho20044s-projects.vercel.app/' target='_blank'>
+                    <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center" href='https://nextjs-movies-git-main-yooho20044s-projects.vercel.app/' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-homepage-button-for-every-website-under-a-landing-page-template-landing-bold-tal-revivo.png' 
                       alt='hompage' 
@@ -171,7 +171,7 @@ export default function Project(){
                       height={20}
                       />
                     </Link>
-                    <Link className="p-2 bg-neutral-300 w-16 rounded-md flex justify-center items-center"  href='https://github.com/yooho20044/learn-nextjs' target='_blank'>
+                    <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center"  href='https://github.com/yooho20044/learn-nextjs' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-github-with-cat-logo-an-online-community-for-software-development-logo-bold-tal-revivo.png' 
                       alt='Github' 
@@ -182,7 +182,7 @@ export default function Project(){
                   </div>
               </div>
               <div 
-              className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100' 
+              className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100 shadow-xl shadow-neutral-200/100' 
               data-aos="flip-up" 
               data-aos-duration="3000" 
               data-aos-anchor-placement="bottom-bottom">
@@ -255,7 +255,7 @@ export default function Project(){
                   </div>
                 </div>
                 <div className='flex flex-row justify-center items-center gap-3 pb-3'>
-                    <Link className="p-2 bg-neutral-300 w-16 rounded-md flex justify-center items-center"  href='https://github.com/yooho20044/profile' target='_blank'>
+                    <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center"  href='https://github.com/yooho20044/profile' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-github-with-cat-logo-an-online-community-for-software-development-logo-bold-tal-revivo.png' 
                       alt='Github' 
