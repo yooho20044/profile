@@ -30,7 +30,7 @@ export default function EmploymentHistory(){
     }, []);
 
     return(
-        <div className="bg-white lg:h-screen text-black m-20 z-50" data-aos="fade-left">
+        <div className="bg-white lg:h-screen text-black m-20 z-50 rounded-lg shadow-lg shadow-neutral-500/50" data-aos="fade-left">
           <div className='flex h-[20%] justify-center items-center border-b border-neutral-400 p-1'>
               <h1 className='lg:text-7xl font-bold text-black text-4xl'>경력 기술서</h1>
           </div>

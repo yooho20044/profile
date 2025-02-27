@@ -2,7 +2,7 @@ import { AtSymbolIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/solid';
 
 export default function Contact(){
     return(
-        <div className="h-96 bg-white flex-shrink-0  min-w-[300px] text-black m-20 lg:m-96 z-50 flex lg:flex-row flex-col" data-aos="zoom-in">
+        <div className="h-96 bg-white flex-shrink-0  min-w-[300px] text-black m-20 lg:m-96 z-50 flex lg:flex-row flex-col rounded-lg overflow-hidden" data-aos="zoom-in">
           <div className='xl:w-[30%] w-full  bg-blue-100 flex justify-center items-center'>
                 <span className='2xl:text-5xl xl:text-3xl text-2xl font-bold text-white'>Contact</span>
           </div>
