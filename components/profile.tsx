@@ -41,23 +41,18 @@ export default function Profile(){
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
                             <div className='flex flex-row'>
                                 <span className='font-bold flex-1'>SQLD</span>
-                                <span className='flex-1'>2019. 12. 12 취득</span>
-                                <span className='flex-1'>데이터베이스</span>
+                                <span className='flex-1'>2023. 12 취득</span>
+                                <span className='flex-1'>한국데이터베이스진흥센터</span>
                             </div>
                             <div className='flex flex-row'>
                                 <span className='font-bold flex-1'>정보처리기사</span>
-                                <span className='flex-1'>2019. 12. 12 취득</span>
+                                <span className='flex-1'>2022. 06 취득</span>
                                 <span className='flex-1'>한국산업인력공단</span>
                             </div>
                             <div className='flex flex-row'>
                                 <span className='font-bold flex-1'>컴퓨터활용능력 1급</span>
-                                <span className='flex-1'>2019. 12. 12 취득</span>
+                                <span className='flex-1'>2013. 12 취득</span>
                                 <span className='flex-1'>대한상공회의소</span>
-                            </div>
-                            <div className='flex flex-row'>
-                                <span className='font-bold flex-1'>SQLD</span>
-                                <span className='flex-1'>2019. 12. 12 취득</span>
-                                <span className='flex-1'>데이터베이스</span>
                             </div>
                         </div>
                     </div>
