@@ -5,7 +5,7 @@ import getProject from '@/app/server';
 import { useEffect, useState } from 'react';
 
 interface ProjectProps{
-    pjId: number;
+    pjId: string;
     pjTitle: string;
     pjCompany: string;
     pjPeriod: string;
@@ -38,6 +38,7 @@ export default function EmploymentHistory(){
     useEffect(() => {
       async function fetchInitialProject() {
       const initialProject = await selectId(1);
+      console.log(initialProject);
       setSelectProject(initialProject);
       }
       fetchInitialProject();
@@ -85,14 +86,14 @@ export default function EmploymentHistory(){
                   <div className='*:pl-3'>
                     {selectProject.works.map((work,index) =><li key={index}>{work}</li>)}
                   </div>
-                  {selectProject.results &&(<>
+                  {selectProject.results && selectProject.results.length > 0 &&(<>
                     <p><span className='font-bold'>성과 및 경험</span></p>
                     <div className='*:pl-3'>
                       {selectProject.results.map((result, index) => <li key={index}>{result}</li>)}
                     </div>
                   </>
                   )}
-                  {selectProject.reviews && (<>
+                  {selectProject.reviews && selectProject.reviews.length > 0 &&(<>
                     <p><span className='font-bold text-2xl'>Review</span></p>
                     <div className='*:pl-3'>
                       {selectProject.reviews.map((review, index) => <li key={index}>{review}</li>)}
@@ -109,10 +110,10 @@ export default function EmploymentHistory(){
               <div className='flex flex-col  border-t-4 border-b-4 border-black w-full'>
                 <h2 className='border-b-4 h-10 border-black flex justify-center items-center'>개발 경력</h2>
                 <div className='flex-row *:h-32 *:text-md flex *:w-1/2'>
-                  <div className={`cursor-pointer ${selectProject?.pjId === 1 ? 'bg-neutral-400' : ''} border-r-2 border-dashed flex items-center`} onClick={async() => setSelectProject(await selectId(1))}>
+                  <div className={`cursor-pointer ${selectProject?.pjId === "1" ? 'bg-neutral-400' : ''} border-r-2 border-dashed flex items-center`} onClick={async() => setSelectProject(await selectId(1))}>
                     <span >특허 빅데이터 분석 서비스 데이터 구축 사업</span>
                   </div>
-                  <div className={`cursor-pointer ${selectProject?.pjId === 2 ? 'bg-neutral-400' : ''} flex items-center`} onClick={async() => setSelectProject( await selectId(2))}>
+                  <div className={`cursor-pointer ${selectProject?.pjId === "2" ? 'bg-neutral-400' : ''} flex items-center`} onClick={async() => setSelectProject( await selectId(2))}>
                     <span>건국대학교 색인·검색 시스템 구축 사업</span>
                   </div>
                 </div>
@@ -120,13 +121,13 @@ export default function EmploymentHistory(){
               <div className='flex flex-col border-t-4 border-b-4 border-black w-full'>
                 <h2 className='border-b-4 h-10 border-black  flex justify-center items-center'>유지보수 경력</h2>
                 <div className='flex-row *:h-32 *:text-md flex *:w-1/2'>
-                  <div className={`cursor-pointer ${selectProject?.pjId === 3 ? 'bg-neutral-400' : ''} border-r-2 border-dashed flex items-center`} onClick={async() => setSelectProject(await selectId(3))}>
+                  <div className={`cursor-pointer ${selectProject?.pjId === "3" ? 'bg-neutral-400' : ''} border-r-2 border-dashed flex items-center`} onClick={async() => setSelectProject(await selectId(3))}>
                     <span>국민연금공단 콜 분석 시스템 유지보수</span>
                   </div>
-                  <div className={`cursor-pointer ${selectProject?.pjId === 4 ? 'bg-neutral-400' : ''} border-r-2 border-dashed flex items-center`} onClick={async() => setSelectProject(await selectId(4))}>
+                  <div className={`cursor-pointer ${selectProject?.pjId === "4" ? 'bg-neutral-400' : ''} border-r-2 border-dashed flex items-center`} onClick={async() => setSelectProject(await selectId(4))}>
                     <span>한국무역협회 TradePro, TradeNavy 색인 유지보수</span>
                   </div>
-                  <div className={`cursor-pointer ${selectProject?.pjId === 5 ? 'bg-neutral-400' : ''} flex items-center`} onClick={async() => setSelectProject(await selectId(5))}>
+                  <div className={`cursor-pointer ${selectProject?.pjId === "5" ? 'bg-neutral-400' : ''} flex items-center`} onClick={async() => setSelectProject(await selectId(5))}>
                     <span>부산대병원/양산부산대병원/부산대한방병원 사이트 유지보수</span>
                   </div>
                 </div>
@@ -148,14 +149,14 @@ export default function EmploymentHistory(){
                   <div className='*:pl-3'>
                     {selectProject.works.map((work,index) =><li key={index}>{work}</li>)}
                   </div>
-                  {selectProject.results &&(<>
+                  {selectProject.results && selectProject.results.length > 0 &&(<>
                     <p><span className='font-bold'>성과 및 경험</span></p>
                     <div className='*:pl-3'>
                       {selectProject.results.map((result, index) => <li key={index}>{result}</li>)}
                     </div>
                   </>
                   )}
-                  {selectProject.reviews && (<>
+                  {selectProject.reviews && selectProject.reviews.length > 0 &&(<>
                     <p><span className='font-bold text-2xl'>Review</span></p>
                     <div className='*:pl-3'>
                       {selectProject.reviews.map((review, index) => <li key={index}>{review}</li>)}
