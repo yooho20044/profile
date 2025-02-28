@@ -22,12 +22,12 @@ export default function Bottom(){
         <div className="bg-black w-screen min-h-screen flex justify-center items-center font-semibold text-8xl">
             {/* 타이핑 효과를 적용할 컨테이너 */}
             <div 
-            className={`fixed ${hide ? "opacity-0" : "opacity-100"} text-[50px] min-w-[8px] md:text-[75px] md:min-w-[10px] lg:text-[100px] lg:min-w-[11px]`} 
+            className={`relative md:fixed text-[50px] min-w-[8px] md:text-[75px] md:min-w-[10px] lg:text-[100px] lg:min-w-[11px]`} 
             >
                 {/* overflow-hidden과 border-r로 커서 효과 적용 */}
                 <div className="overflow-hidden inline-block border-r border-white animate-typing">
                     <span className="whitespace-nowrap text-white">
-                        &lt;/Hello World&gt;
+                       {hide ? `<Hello World>` :  `</Hello World>` } 
                     </span>
                 </div>
             </div>

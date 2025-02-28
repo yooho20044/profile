@@ -1,24 +1,34 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 export default function Project(){
+      const [isMobile, setIsMobile] = useState(false);
+  
+      {/*모바일 검증 */}
+      useEffect(() => {
+        const checkMobile = () => setIsMobile(window.innerWidth < 1024); 
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+      }, []);
+      
     return(
-        <div className="flex h-screen flex-col bg-white text-black m-20 z-50 rounded-lg shadow-2xl shadow-neutral-500/50" data-aos="zoom-in">
+        <div className="flex lg:h-screen flex-col bg-white text-black mt-20 lg:m-20 z-50 rounded-lg shadow-2xl shadow-neutral-500/50" {...(!isMobile && { 'data-aos': 'zoom-in' })}>
           <div className='flex h-[20%] justify-center items-center border-b border-neutral-400 p-3'>
               <span className='lg:text-7xl font-bold text-black text-4xl'>개인 프로젝트</span>
           </div>
           <div className='flex flex-1 flex-wrap lg:flex-row gap-4 *:rounded-lg *:bg-neutral-100 *:shadow-lg *:shadow-neutral-200/100'>
               <div 
               className='w-full flex lg:flex-1 flex-col justify-center items-center m-16' 
-              data-aos="flip-up" 
-              data-aos-duration="3000"
-              data-aos-anchor-placement="center-bottom">
-                <div className='relative flex flex-1 w-full justify-center items-center overflow-hidden rounded-lg'>
+              {...(!isMobile && { 'data-aos': 'flip-up', 'data-aos-duration': '3000', 'data-aos-anchor-placement' : 'center-bottom' })}
+              >
+                <div className='relative flex lg:flex-1 h-96 w-full justify-center items-center overflow-hidden rounded-lg'>
                   <Image 
                   src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/c7eea095-ce58-4d45-fffa-41619b5b4500/public' 
                   alt='당근마켓 클론사이트'
                   fill  
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'fill' }}
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1 pt-2'>
@@ -109,15 +119,14 @@ export default function Project(){
               </div>
               <div 
               className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100 shadow-xl shadow-neutral-200/100 rounded-lg' 
-              data-aos="flip-up" 
-              data-aos-duration="3000" 
-              data-aos-anchor-placement="top-center">
-                <div className='relative flex flex-1 w-full  justify-center items-center overflow-hidden rounded-lg'>
+              {...(!isMobile && { 'data-aos': 'flip-up', 'data-aos-duration': '3000', 'data-aos-anchor-placement' : 'top-center' })}
+              >
+                <div className='relative flex lg:flex-1 w-full h-96 justify-center items-center overflow-hidden rounded-lg'>
                   <Image 
                   src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/3bb3a036-3374-4abc-404c-75c79e36e600/public' 
                   alt='영화 평점 사이트'
                   fill  
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'fill' }}
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
@@ -181,15 +190,14 @@ export default function Project(){
               </div>
               <div 
               className='w-full flex lg:flex-1 flex-col justify-center items-center m-16 bg-neutral-100 shadow-xl shadow-neutral-200/100 rounded-lg' 
-              data-aos="flip-up" 
-              data-aos-duration="3000" 
-              data-aos-anchor-placement="bottom-bottom">
-                <div className='relative flex flex-1 w-full  justify-center items-center overflow-hidden rounded-lg'>
+              {...(!isMobile && { 'data-aos': 'flip-up', 'data-aos-duration': '3000', 'data-aos-anchor-placement' : 'bottom-bottom' })} 
+              >
+                <div className='relative flex lg:flex-1 w-full h-96 justify-center items-center overflow-hidden rounded-lg'>
                   <Image 
                   src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/31646407-f05b-43b8-dd79-a19541936800/public' 
                   alt='내 이력서 사이트'
                   fill  
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'fill' }}
                   />
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>

@@ -38,7 +38,7 @@ export default function Home() {
   }, []);
 
   return (
-      <div className="flex flex-col w-screen min-h-screen bg-black m-auto justify-center">
+      <div className="overflow-x-hidden flex flex-col w-full min-h-screen bg-black m-auto justify-center">
         <Top />
         <Profile />
         <EmploymentHistory />

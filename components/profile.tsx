@@ -1,26 +1,38 @@
+"use client"
+
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 export default function Profile(){
+    const [isMobile, setIsMobile] = useState(false);
+
+    {/*모바일 검증 */}
+    useEffect(() => {
+      const checkMobile = () => setIsMobile(window.innerWidth < 1024); 
+      checkMobile();
+      window.addEventListener('resize', checkMobile);
+      return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
     return(
-        <div className="min-h-screen rounded-lg bg-white text-black m-20 flex flex-row z-50" data-aos="fade-right">
-            <div className='w-[20%] border-neutral-500 flex flex-col border-r-2 pt-8 items-center'>
-                <div className='border border-neutral-300 border-dashed w-60 h-64 rounded-xl overflow-hidden m-5 flex justify-center items-center'>
+        <div className="min-h-screen rounded-lg bg-white text-black lg:m-20 lg:flex lg:flex-row z-50" {...(!isMobile && { 'data-aos': 'fade-right' })}>
+            <div className='w-[100%] lg:w-[20%] border-neutral-500 flex flex-row lg:flex-col border-r-2 pt-8 items-center'>
+                <div className='relative border border-neutral-300 border-dashed w-32 h-32 md:w-40 md:h-44 2xl:w-60 2xl:h-64 rounded-xl overflow-hidden m-5 flex justify-center items-center'>
                      <Image 
                      src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/0183bc90-b2d4-4938-5443-2cf4d6f4bd00/public' 
                      alt="증명사진"
-                     width={16}      // 비율에 맞는 값
-                     height={9}      // 비율에 맞는 값 (예: 16:9 비율)
-                     layout="responsive"
+                     fill  
+                        style={{ objectFit: 'cover' }}
                      /> 
                 </div>
-                <div className='flex flex-1 justify-center items-center flex-col gap-2 *:text-right'>
+                <div className='flex flex-1 justify-end lg:justify-center items-center flex-col gap-2 *:text-right'>
                     <span className='text-neutral-400 text-xl'>끊임없는 도전자</span>
                     <span className='text-4xl font-semibold'>류 호 진</span>
                     <span className='text-2xl text-neutral-300'>Ryu Hojin</span>
                 </div>
             </div>
             <div className='flex-1 flex flex-col'>
-                <div className='h-[40%] flex flex-row'>
+                <div className='h-[40%] flex lg:flex-row flex-col'>
                     <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>개인정보</span>
@@ -57,7 +69,7 @@ export default function Profile(){
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-row h-[40%]'>
+                <div className='flex flex-col lg:flex-row h-[40%]'>
                     <div className='flex flex-1 flex-col'>
                         <div className='flex justify-center items-center gap-2 border-b-4 border-black mt-10 mx-10 mb-0 pb-2'>
                             <span className='text-2xl font-semibold'>학력사항</span>
