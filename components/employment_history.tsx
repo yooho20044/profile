@@ -42,6 +42,7 @@ export default function EmploymentHistory(){
       }
       fetchInitialProject();
     }, []);
+    
 
     return(
         <div className="mt-20 bg-white lg:h-screen text-black md:m-20 z-50 rounded-lg shadow-lg shadow-neutral-500/50" {...(!isMobile && { 'data-aos': 'fade-left' })}>
@@ -130,7 +131,7 @@ export default function EmploymentHistory(){
                   </div>
                 </div>
               </div>
-            </div>``
+            </div>
             {selectProject && (
               <div className="w-full flex flex-col p-4">
                 <div className="border-b-2 border-black pb-4">

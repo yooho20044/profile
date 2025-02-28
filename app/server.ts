@@ -1,6 +1,6 @@
 export default async function getProject(id: number){
     try {
-        const url = `http://jayryu.ipTime.org:2680/getProjectOne?pjId=${encodeURIComponent(id)}`;
+        const url = `https://jayryu.ipTime.org:2680/getProjectOne?pjId=${encodeURIComponent(id)}`;
         const res = await fetch(url);
         if (!res.ok) {
           throw new Error('네트워크 응답이 정상적이지 않습니다.');
