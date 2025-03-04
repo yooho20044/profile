@@ -110,6 +110,10 @@ export default function Profile(){
                                 <span className='flex-1'>React</span>
                                 <span className='flex-1'>⭐️</span>
                             </div>
+                            <div className='flex flex-row'>
+                                <span className='flex-1'>TypeScript</span>
+                                <span className='flex-1'>⭐️</span>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ export default function Contact(){
           <div className='xl:w-[30%] w-full h-1/5 lg:h-full bg-blue-100 flex justify-center items-center'>
                 <span className='2xl:text-5xl xl:text-3xl text-2xl font-bold text-white'>Contact</span>
           </div>
-          <div className='flex-1 h-2/5 lg:h-full flex lg:flex-col flex-row border-b-2 lg:border-r-2 border-dashed border-neutral-400'>
+          <div className='flex-1 h-2/5 lg:h-full flex lg:flex-col flex-row border-b-2 lg:border-b-0 lg:border-r-2 border-dashed border-neutral-400'>
             <div className='flex-1 flex items-center justify-center *:font-bold'>
               <DevicePhoneMobileIcon style={{width:'100px', height:'100px'}}/>
             </div>

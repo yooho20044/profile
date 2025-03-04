@@ -38,7 +38,6 @@ export default function EmploymentHistory(){
     useEffect(() => {
       async function fetchInitialProject() {
       const initialProject = await selectId(1);
-      console.log(initialProject);
       setSelectProject(initialProject);
       }
       fetchInitialProject();
