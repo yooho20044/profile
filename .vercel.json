@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api/:path*",
-        "destination": "http://jayryu.iptime.org:2680/:path*"
+        "destination": "https://jayryu.iptime.org:2680/:path*"
       }
     ]
   }
