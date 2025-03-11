@@ -1,7 +1,7 @@
 "use client"
 
 
-import getProject from '@/app/server';
+import getProject from '@/utils/server';
 import { useEffect, useState } from 'react';
 
 interface ProjectProps{
