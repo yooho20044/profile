@@ -203,8 +203,9 @@ export default function Project(){
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>내 이력서 페이지 구현</span>
                   <span className='text-md font-bold text-center'>실제 구현부분</span>
                   <span className='pl-4 text-sm'>next.js를 사용한 싱글 페이지 구현</span>
-                  <span className='pl-4 text-sm'>vercel을 이용한 CI/CD구현</span>
                   <span className='pl-4 text-sm'>Spring을 사용한 API 구현 및 페이지 연결</span>
+                  <span className='pl-4 text-sm'>Github Action을 이용한 자동 CI/CD구현</span>
+                  <span className='pl-4 text-sm'>개인서버에 Domain연결 및 SSL적용</span>
                   <span className='text-md font-bold text-center'>사용 기술</span>
                   <div className='flex flex-row gap-2 justify-center'>
                     <Image 

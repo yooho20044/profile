@@ -61,11 +61,6 @@ export default function Profile(){
                                 <span className='flex-1'>2022. 06 취득</span>
                                 <span className='flex-1'>한국산업인력공단</span>
                             </div>
-                            <div className='flex flex-row'>
-                                <span className='font-bold flex-1'>컴퓨터활용능력 1급</span>
-                                <span className='flex-1'>2013. 12 취득</span>
-                                <span className='flex-1'>대한상공회의소</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,15 +90,19 @@ export default function Profile(){
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
                             <div className='flex flex-row'>
-                                <span className='flex-1'>JavaScript</span>
-                                <span className='flex-1'>⭐️⭐️⭐️</span>
-                            </div>
-                            <div className='flex flex-row'>
                                 <span className='flex-1'>DB</span>
                                 <span className='flex-1'>⭐️⭐️⭐️⭐️</span>
                             </div>
                             <div className='flex flex-row'>
+                                <span className='flex-1'>JavaScript</span>
+                                <span className='flex-1'>⭐️⭐️⭐️</span>
+                            </div>
+                            <div className='flex flex-row'>
                                 <span className='flex-1'>Java</span>
+                                <span className='flex-1'>⭐️⭐️</span>
+                            </div>
+                            <div className='flex flex-row'>
+                                <span className='flex-1'>CSS</span>
                                 <span className='flex-1'>⭐️⭐️</span>
                             </div>
                             <div className='flex flex-row'>
