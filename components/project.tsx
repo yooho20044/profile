@@ -24,12 +24,14 @@ export default function Project(){
               {...(!isMobile && { 'data-aos': 'flip-up', 'data-aos-duration': '3000', 'data-aos-anchor-placement' : 'center-bottom' })}
               >
                 <div className='relative flex lg:flex-1 h-96 w-full justify-center items-center overflow-hidden rounded-lg'>
+                <Link href='https://carrot-market-rhj.vercel.app/' target='_blank'>
                   <Image 
                   src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/c7eea095-ce58-4d45-fffa-41619b5b4500/public' 
                   alt='당근마켓 클론사이트'
                   fill  
                   style={{ objectFit: 'fill' }}
                   />
+                </Link>
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1 pt-2'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>당근마켓 클론사이트 구현</span>
@@ -121,12 +123,14 @@ export default function Project(){
               {...(!isMobile && { 'data-aos': 'flip-up', 'data-aos-duration': '3000', 'data-aos-anchor-placement' : 'top-center' })}
               >
                 <div className='relative flex lg:flex-1 w-full h-96 justify-center items-center overflow-hidden rounded-lg'>
+                <Link href='https://nextjs-movies-git-main-yooho20044s-projects.vercel.app/' target='_blank'>
                   <Image 
                   src='https://imagedelivery.net/ei8ubQSruTv8AmnS3d2tXQ/3bb3a036-3374-4abc-404c-75c79e36e600/public' 
                   alt='영화 평점 사이트'
                   fill  
                   style={{ objectFit: 'fill' }}
                   />
+                </Link>
                 </div>
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>영화 평점사이트 구현</span>
@@ -202,10 +206,10 @@ export default function Project(){
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>내 이력서 페이지 구현</span>
                   <span className='text-md font-bold text-center'>실제 구현부분</span>
-                  <span className='pl-4 text-sm'>next.js를 사용한 싱글 페이지 구현</span>
+                  <span className='pl-4 text-sm'>Next.js를 사용한 SPA 구현</span>
                   <span className='pl-4 text-sm'>Spring을 사용한 API 구현 및 페이지 연결</span>
                   <span className='pl-4 text-sm'>Github Action을 이용한 자동 CI/CD구현</span>
-                  <span className='pl-4 text-sm'>개인서버에 Domain연결 및 SSL적용</span>
+                  <span className='pl-4 text-sm'>개인서버에 웹서버(NginX)적용 및 도메인, SSL적용</span>
                   <span className='text-md font-bold text-center'>사용 기술</span>
                   <div className='flex flex-row gap-2 justify-center'>
                     <Image 
@@ -247,10 +251,10 @@ export default function Project(){
                   </div>
                   <div className='flex flex-row gap-2 justify-center'>
                     <Image 
-                    src='https://cdn.brandfetch.io/idDpCfN4VD/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
-                    alt='vercel' 
-                    width={40}   
-                    height={40}
+                    src='https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-nginx-accelerates-content-and-application-delivery-improves-security-logo-shadow-tal-revivo.png' 
+                    alt='NginX' 
+                    width={20}   
+                    height={20}
                     />
                     <Image 
                     src='https://cdn.brandfetch.io/idMNEQh7-0/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B' 
