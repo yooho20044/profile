@@ -15,7 +15,7 @@ export default function Profile(){
     }, []);
 
     return(
-        <div className="min-h-screen rounded-lg bg-white text-black lg:m-20 lg:flex lg:flex-row z-50" {...(!isMobile && { 'data-aos': 'fade-right' })}>
+        <div id='scroll-target' className="min-h-screen rounded-lg bg-white text-black lg:m-20 lg:flex lg:flex-row z-50" {...(!isMobile && { 'data-aos': 'fade-right' })}>
             <div className='w-[100%] lg:w-[20%] border-neutral-500 flex flex-row lg:flex-col border-r-2 pt-8 items-center'>
                 <div className='relative border border-neutral-300 border-dashed w-32 h-32 md:w-40 md:h-44 2xl:w-60 2xl:h-64 rounded-xl overflow-hidden m-5 flex justify-center items-center'>
                      <Image 
