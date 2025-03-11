@@ -31,7 +31,7 @@ export default function Top(){
         const handleScrollDown = () => {
             const target = document.getElementById("scroll-target");
             if (target) {
-              target.scrollIntoView({ behavior: "smooth" });
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
             }
           };
 
@@ -50,12 +50,12 @@ export default function Top(){
             </div>
             {/* 아래 스크롤 버튼 */}
             {showScrollButton && (
-                <button 
-                    onClick={handleScrollDown} 
-                    className="animate-pulse w-96 mt-auto text-2xl px-4 py-2 bg-gray-700 text-white rounded"
-                >
-                    Scroll Down ⇣
-                </button>
+            <button 
+                onClick={handleScrollDown} 
+                className="animate-pulse fixed bottom-4 left-1/2 transform -translate-x-1/2 text-xl px-4 py-2 bg-gray-700 text-white rounded z-10"
+            >
+            Scroll Down ⇣
+            </button>
             )}
         </div>
     )
