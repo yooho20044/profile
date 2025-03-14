@@ -102,7 +102,7 @@ export default function Project(){
                     <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center" href='https://carrot-market-rhj.vercel.app/' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-homepage-button-for-every-website-under-a-landing-page-template-landing-bold-tal-revivo.png' 
-                      alt='hompage' 
+                      alt='homepage' 
                       width={20}   
                       height={20}
                       />
@@ -176,7 +176,7 @@ export default function Project(){
                     <Link className="p-2 bg-blue-500 shadow-lg shadow-blue-500/50 w-16 rounded-md flex justify-center items-center" href='https://nextjs-movies-git-main-yooho20044s-projects.vercel.app/' target='_blank'>
                       <Image 
                       src='https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-homepage-button-for-every-website-under-a-landing-page-template-landing-bold-tal-revivo.png' 
-                      alt='hompage' 
+                      alt='homepage' 
                       width={20}   
                       height={20}
                       />
@@ -206,7 +206,7 @@ export default function Project(){
                 <div className='flex flex-1 flex-col gap-3 justify-center pb-1'>
                   <span className='text-2xl pb-2 border-b-4 border-neutral-400 text-center font-bold'>내 이력서 페이지 구현</span>
                   <span className='text-md font-bold text-center'>실제 구현부분</span>
-                  <span className='pl-4 text-sm'>Next.js를 사용한 SPA 구현</span>
+                  <span className='pl-4 text-sm'>Next.js를 사용한 페이지 구현 및 컴포넌트화</span>
                   <span className='pl-4 text-sm'>Spring을 사용한 API 구현 및 페이지 연결</span>
                   <span className='pl-4 text-sm'>Github Action을 이용한 자동 CI/CD구현</span>
                   <span className='pl-4 text-sm'>개인서버에 웹서버(NginX)적용 및 도메인, SSL적용</span>
