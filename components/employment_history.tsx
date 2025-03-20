@@ -86,14 +86,14 @@ export default function EmploymentHistory(){
                     {selectProject.works.map((work,index) =><li key={index}>{work}</li>)}
                   </div>
                   {selectProject.results && selectProject.results.length > 0 &&(<>
-                    <p><span className='font-bold'>성과 및 경험</span></p>
+                    <p><span className='font-bold'>성과</span></p>
                     <div className='*:pl-3'>
                       {selectProject.results.map((result, index) => <li key={index}>{result}</li>)}
                     </div>
                   </>
                   )}
                   {selectProject.reviews && selectProject.reviews.length > 0 &&(<>
-                    <p><span className='font-bold text-2xl'>Review</span></p>
+                    <p><span className='font-bold text-2xl'>경험</span></p>
                     <div className='*:pl-3'>
                       {selectProject.reviews.map((review, index) => <li key={index}>{review}</li>)}
                     </div>
@@ -149,14 +149,14 @@ export default function EmploymentHistory(){
                     {selectProject.works.map((work,index) =><li key={index}>{work}</li>)}
                   </div>
                   {selectProject.results && selectProject.results.length > 0 &&(<>
-                    <p><span className='font-bold'>성과 및 경험</span></p>
+                    <p><span className='font-bold'>성과</span></p>
                     <div className='*:pl-3'>
                       {selectProject.results.map((result, index) => <li key={index}>{result}</li>)}
                     </div>
                   </>
                   )}
                   {selectProject.reviews && selectProject.reviews.length > 0 &&(<>
-                    <p><span className='font-bold text-2xl'>Review</span></p>
+                    <p><span className='font-bold text-2xl'>경험</span></p>
                     <div className='*:pl-3'>
                       {selectProject.reviews.map((review, index) => <li key={index}>{review}</li>)}
                     </div>
