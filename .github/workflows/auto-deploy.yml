@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14' # 필요에 따라 버전 조정
+          node-version: '18' # 필요에 따라 버전 조정
       - name: Install dependencies
         run: npm install
       - name: Build project
@@ -23,8 +23,10 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             cd /home/hobbang/Project/profile
             git pull origin main
             npm install
             npm run build
-            pm2 restart profile  # PM2를 사용하는 경우
+            pm2 restart profile

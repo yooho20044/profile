@@ -1,7 +1,7 @@
 "use client"
 
 
-import getProject from '@/app/server';
+import getProject from '@/utils/server';
 import { useEffect, useState } from 'react';
 
 interface ProjectProps{
@@ -86,14 +86,14 @@ export default function EmploymentHistory(){
                     {selectProject.works.map((work,index) =><li key={index}>{work}</li>)}
                   </div>
                   {selectProject.results && selectProject.results.length > 0 &&(<>
-                    <p><span className='font-bold'>성과 및 경험</span></p>
+                    <p><span className='font-bold'>성과</span></p>
                     <div className='*:pl-3'>
                       {selectProject.results.map((result, index) => <li key={index}>{result}</li>)}
                     </div>
                   </>
                   )}
                   {selectProject.reviews && selectProject.reviews.length > 0 &&(<>
-                    <p><span className='font-bold text-2xl'>Review</span></p>
+                    <p><span className='font-bold text-2xl'>경험</span></p>
                     <div className='*:pl-3'>
                       {selectProject.reviews.map((review, index) => <li key={index}>{review}</li>)}
                     </div>
@@ -133,7 +133,7 @@ export default function EmploymentHistory(){
               </div>
             </div>
             {selectProject && (
-              <div className="w-full flex flex-col p-4">
+              <div className="w-full flex flex-col p-4 *:text-sm">
                 <div className="border-b-2 border-black pb-4">
                   <h1 className="text-center text-3xl font-bold">{selectProject.pjTitle}</h1>
                 </div>
@@ -145,21 +145,21 @@ export default function EmploymentHistory(){
                   
                   <p><span className='font-bold'>사용 기술 </span>: {selectProject.skills.map(((sk,index) => <span key={index}>{sk}{index !== selectProject.skills.length - 1 ? ', ' : ''}</span>))}</p>
                   <p><span className='font-bold'>주요 업무</span></p>
-                  <div className='*:pl-3'>
+                  <ul className="list-disc list-outside pl-6">
                     {selectProject.works.map((work,index) =><li key={index}>{work}</li>)}
-                  </div>
+                  </ul>
                   {selectProject.results && selectProject.results.length > 0 &&(<>
-                    <p><span className='font-bold'>성과 및 경험</span></p>
-                    <div className='*:pl-3'>
+                    <p><span className='font-bold'>성과</span></p>
+                    <ul className="list-disc list-outside pl-6">
                       {selectProject.results.map((result, index) => <li key={index}>{result}</li>)}
-                    </div>
+                    </ul>
                   </>
                   )}
                   {selectProject.reviews && selectProject.reviews.length > 0 &&(<>
-                    <p><span className='font-bold text-2xl'>Review</span></p>
-                    <div className='*:pl-3'>
+                    <p><span className='font-bold'>경험</span></p>
+                    <ul className="list-disc list-outside pl-6">
                       {selectProject.reviews.map((review, index) => <li key={index}>{review}</li>)}
-                    </div>
+                    </ul>
                   </>
                   )}
                 </div>

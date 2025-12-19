@@ -15,7 +15,7 @@ export default function Profile(){
     }, []);
 
     return(
-        <div className="min-h-screen rounded-lg bg-white text-black lg:m-20 lg:flex lg:flex-row z-50" {...(!isMobile && { 'data-aos': 'fade-right' })}>
+        <div id='scroll-target' className="min-h-screen rounded-lg bg-white text-black lg:m-20 lg:flex lg:flex-row z-50" {...(!isMobile && { 'data-aos': 'fade-right' })}>
             <div className='w-[100%] lg:w-[20%] border-neutral-500 flex flex-row lg:flex-col border-r-2 pt-8 items-center'>
                 <div className='relative border border-neutral-300 border-dashed w-32 h-32 md:w-40 md:h-44 2xl:w-60 2xl:h-64 rounded-xl overflow-hidden m-5 flex justify-center items-center'>
                      <Image 
@@ -40,7 +40,7 @@ export default function Profile(){
                         </div>
                         <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10'>
                             <span>이름: 류 호 진</span>
-                            <span>생년월일: 1991. 11. 12(만 33세)</span>
+                            <span>생년월일: 1991. 11. 12(만 34세)</span>
                             <span>연락처: 010-9490-2963</span>
                             <span>이메일: ryuho20044@gmail.com</span>
                         </div>
@@ -126,6 +126,13 @@ export default function Profile(){
                             <div className='flex flex-row'>
                             <span className='flex-1'>(주)이노그루 - (주임)</span>
                             <span className='flex-1'>2022.05.01 ~ 2024.10.31</span>
+                            <span className='flex-1'>웹개발, 유지보수</span>
+                            </div>
+                        </div>
+                        <div className='flex flex-1 flex-col gap-4 m-10 *:border-b *:border-dashed mt-4 mx-10 mb-10 *:gap-4'>
+                            <div className='flex flex-row'>
+                            <span className='flex-1'>(주)에이전시프로 - (사원)</span>
+                            <span className='flex-1'>2025.04.08 ~ </span>
                             <span className='flex-1'>웹개발, 유지보수</span>
                             </div>
                         </div>

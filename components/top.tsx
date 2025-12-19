@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Top(){
 
    const [hide, setHide] = useState(false);
+   const [showScrollButton, setShowScrollButton] = useState(true);
 
         useEffect(() => {
             const handleScroll = () => {
@@ -12,12 +13,27 @@ export default function Top(){
             } else {
                 setHide(false);
             }
+
+            //스크롤버튼 숨김여부
+            if(window.scrollY === 0){
+                setShowScrollButton(true);
+            }else{
+                setShowScrollButton(false);
+            }
             };
+
+            
 
             window.addEventListener("scroll", handleScroll);
             return () => window.removeEventListener("scroll", handleScroll);
         }, []);
 
+        const handleScrollDown = () => {
+            const target = document.getElementById("scroll-target");
+            if (target) {
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          };
 
     return(
         <div className="bg-black w-screen min-h-screen flex justify-center items-center font-semibold text-8xl">
@@ -32,6 +48,15 @@ export default function Top(){
                     </span>
                 </div>
             </div>
+            {/* 아래 스크롤 버튼 */}
+            {showScrollButton && (
+            <button 
+                onClick={handleScrollDown} 
+                className="animate-pulse fixed bottom-4 left-1/2 transform -translate-x-1/2 text-xl px-4 py-2 bg-gray-700 text-white rounded z-10"
+            >
+            Scroll Down ⇣
+            </button>
+            )}
         </div>
     )
 }
